@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&family=Roboto+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>HTML Cheat Sheet </title>
+</head>
+<body>
+    <header>
+        <h1>HTML CheatSheet Reference</h1>
+        <nav>
+            <ul>
+                <li><a href="#">HTML</a></li>
+                <li><a href="#">HTML Tables</a></li>
+                <li><a href="#">Semantic HTML</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <article>
+            <h2>Basic HTML Tags</h2>
+            <p>These are the basics html tags, showing the tag, tag name, description and some notes.</p>
+            <div class="container tablas">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="code">&lt;DOCTYPE html&gt;</span></td>
+                            <td>Doctype</td>
+                            <td>Tells the browser that the file is in the HTML format</td>
+                            <td>It's place at the top of the page.</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;html&gt;&lt;/html&gt;</span></td>
+                            <td>HTML</td>
+                            <td>This element wraps all the content on the entire page and is sometimes known as the root element.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;head&gt;&lt;/head&gt;</span></td>
+                            <td>Head</td>
+                            <td>This element acts as a container for all the stuff you want to include on the HTML page that isn't the content you are showing to your page's viewers.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;meta charset="utf-8"&gt;</span></td>
+                            <td>Meta</td>
+                            <td>This element sets the character set your document should use to UTF-8 which includes most characters from the vast majority of written languages.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;title&gt;&lt;/title&gt;</span></td>
+                            <td>Title</td>
+                            <td>This sets the title of your page, which is the title that appears in the browser tab the page is loaded in.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;body&gt;&lt;/body&gt;</span></td>
+                            <td>Body</td>
+                            <td>This contains all the content that you want to show to web users when they visit your page, whether that's text, images, videos, games, playable audio tracks, or whatever else.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;img&gt;</span></td>
+                            <td>Image</td>
+                            <td>Displays an image on the webpage.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;p&gt;&lt;/p&gt;</span></td>
+                            <td>Paragraph</td>
+                            <td>This element are for containing paragraphs of text; you'll use these frequently when marking up regular text content.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;a&gt;&lt;/a&gt;</span></td>
+                            <td>Links</td>
+                            <td>Creates a link to another page or to a location in the current page.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;ul&gt;&lt;/ul&gt; or &lt;ol&gt;&lt;/ol&gt;</span></td>
+                            <td>Lists</td>
+                            <td>Contain an 'unordered' or 'ordered' list.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;li&gt;&lt;/li&gt;</span></td>
+                            <td>List Item</td>
+                            <td>Populates the list items of the list..</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </article> <!-- end of HTML Basics-->
+
+        <!-- HTML Semantics-->
+        <article>
+            <h2>Semantics HTML Tags</h2>
+            <p>Semantic HTML introduces meaning to the code we write.</p>
+            <p>Before Semantic HTML the elements didn’t have any meaning as to what it does or what content goes in it. An element such as <div> was used as a general-purpose element to create things from headers to footers to articles</p>
+            <div class="container tablas">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Tag</th>
+                            <th>Name</th>
+                            <th>Description</th>
+                            <th>Notes</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><span class="code">&lt;header&gt;&lt;/header&gt;</span></td>
+                            <td>Header</td>
+                            <td>Tells the browser that the file is in the HTML format</td>
+                            <td>It's place at the top of the page.</td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;nav&gt;&lt;/nav&gt;</span></td>
+                            <td>Nav</td>
+                            <td>This element wraps all the content on the entire page and is sometimes known as the root element.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;main&gt;&lt;/main&gt;</span></td>
+                            <td>Main</td>
+                            <td>This element acts as a container for all the stuff you want to include on the HTML page that isn't the content you are showing to your page's viewers.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;section&gt;&lt;/section&gt;</span></td>
+                            <td>Section</td>
+                            <td>This element sets the character set your document should use to UTF-8 which includes most characters from the vast majority of written languages.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;article&gt;&lt;/article&gt;</span></td>
+                            <td>Article</td>
+                            <td>This sets the title of your page, which is the title that appears in the browser tab the page is loaded in.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;aside&gt;&lt;/aside&gt;</span></td>
+                            <td>Aside</td>
+                            <td>This contains all the content that you want to show to web users when they visit your page, whether that's text, images, videos, games, playable audio tracks, or whatever else.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;figure&gt;&lt;/figure&gt;</span></td>
+                            <td>Figure</td>
+                            <td>Displays an image on the webpage.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;figcaption&gt;&lt;/figcaption&gt;</span></td>
+                            <td>Figure Caption</td>
+                            <td>This element are for containing paragraphs of text; you'll use these frequently when marking up regular text content.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;footer&gt;&lt;/footer&gt;</span></td>
+                            <td>Footer</td>
+                            <td>Creates a link to another page or to a location in the current page.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;mark&gt;&lt;/mark&gt;</span></td>
+                            <td>Mark or Highlighted</td>
+                            <td>Contain an 'unordered' or 'ordered' list.</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;summary&gt;&lt;/summary&gt;</span></td>
+                            <td>Summary</td>
+                            <td>Populates the list items of the list..</td>
+                            <td></td>
+                        </tr>
+                        <tr>
+                            <td><span class="code">&lt;details&gt;&lt;/details&gt;</span></td>
+                            <td>Details</td>
+                            <td>Populates the list items of the list..</td>
+                            <td></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+            
+        </article> <!-- End of Semantics-->
+    </main>
+    <footer>
+
+    </footer>
+</body>
+</html>
